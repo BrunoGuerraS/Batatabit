@@ -1,0 +1,19 @@
+
+.bitcoinimg{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../img/Bitcoinbaby.jpg');
+    // background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h2{
+        padding-top: 60px;
+        font-size: 2.4rem;
+        font-weight: bold;
+        line-height: 2.6rem;
+        color: $just-white;
+        text-align: center;
+    }
+}

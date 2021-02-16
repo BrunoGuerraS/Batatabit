@@ -1,0 +1,37 @@
+
+.main-plan-container{
+    background-color: $soft-orange;
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+    
+}
+
+.plans--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    h2{
+        padding-top: 50px;
+        font-size: 2.4rem;
+        font-weight: bold;
+        line-height: 2.6rem;
+        color: $warm-black;
+    }
+    p{
+        padding-top: 30px;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+        color: #757575;
+        
+    }
+}
+
+
+// .plans-contanier--card{
+//     position: relative;
+// }

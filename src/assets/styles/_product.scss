@@ -1,0 +1,106 @@
+
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: $warm-black;
+    
+    .logoBatata{
+        background-image: url('../icons/batata.svg');
+        position: absolute;
+        width: 40px;
+        height: 25px;
+        top: -12px;
+        left: calc(50% - 20px);
+    };
+    
+};
+
+.main-product-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    h2{
+        margin-bottom: 20px;
+        font-size: 2.4rem;
+        font-weight: bold;
+        line-height: 2.6rem;
+        color: $just-white
+    };
+    p{
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+        color: #808080;
+
+    };
+};
+
+.product--card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    // height: 165px;
+    margin: 15px auto;
+    padding: 15px;
+    overflow: hidden;
+    background-color: $black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    h2{
+        color: $just-white;
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 1.8rem;
+        margin-bottom: 12px;
+    }
+    p{
+        color: #808080;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.9rem;
+        text-align: left;
+        
+        
+    }
+};
+
+.clock{
+    display: inline-block;
+    background-image: url('../icons/clock.svg');
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+.eye{
+    display: inline-block;
+    background-image: url('../icons/eye.svg');
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;  
+};
+
+.dolar{
+    display: inline-block;
+    background-image: url('../icons/dollar-sign.svg');
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px; 
+
+};
+
+.check{
+    display: inline-block;
+    background-image: url('../icons/check-circle.svg');
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px; 
+
+};
